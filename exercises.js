@@ -54,11 +54,23 @@ for (var i = 0; i < presidents.length; i++){
    console.log('The value at ' + i + ' is ' + presidents[i]);
 }
 
+function leaders(person){
+   for (var i = person; i < presidents.length; i++){
+      console.log('President ' + presidents[i] + ' was a great leader.');
+   }
+}
+
+leaders(2);
+
 /* 4) Line Number
 Declare a variable named `stringOfNumbers` and assign its value to an empty string. 
 
 Write a for-loop that concatenates a Number value into that string on each iteration, starting at `10` and continuing up to and including `20`. Console.log your result. It should read "1011121314151617181920"*/
 
+var stringOfNumbers = '';
+for (var i = 10; i < 21; i++){
+   console.log(i + i);
+}
 
 /* 5) Even Stevens
 Declare a variable named `evenNumArr` and assign its value to an empty array. 
